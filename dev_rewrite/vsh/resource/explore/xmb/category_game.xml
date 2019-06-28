@@ -372,8 +372,8 @@
 			<Table key="package_files">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_package_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_package_file_info</String></Pair>
+				<Pair key="title"><String>Instalador de pacotes</String></Pair>
+				<Pair key="info"><String>Instalar pacotes e homebrews.</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
 			</Table>
 		</Attributes>
@@ -385,20 +385,20 @@
 		<Attributes>
 			<Table key="host_psn">
 				<Pair key="icon_rsc"><String>item_tex_online_storage</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_psn_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_psn_file_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_psn_content</String></Pair>
+				<Pair key="title"><String>Conteúdo da PlayStation™Network</String></Pair>
+				<Pair key="info"><String>Gerenciar conteúdo da PlayStation™Network.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="package_files_install">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_install_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_install_file_info</String></Pair>
+				<Pair key="title"><String>Instalar pacotes</String></Pair>
+				<Pair key="info"><String>Instalar pacotes dos armazenamentos.</String></Pair>
 			</Table>
 			<Table key="seg_package_files_delete">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_delete_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_delete_file_info</String></Pair>
+				<Pair key="title"><String>Deletar pacotes</String></Pair>
+				<Pair key="info"><String>Deletar pacotes dos armazenamentos.</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -417,29 +417,29 @@
 		<Attributes>
 			<Table key="host_device_1">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_hdd0_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_hdd0_install_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Pacotes do HDD interno</String></Pair>
+				<Pair key="info"><String>Instalar pacotes da pasta packages no HDD do PS3.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="host_device_2">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_usb_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_usb_install_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Pacotes na pasta do USB</String></Pair>
+				<Pair key="info"><String>Instalar pacotes da pasta packages do USB.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="pkg_linker">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title"><String>Package Linker</String></Pair>
-				<Pair key="info"><String>INSTALL from Local Web Server</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Via Package Linker</String></Pair>
+				<Pair key="info"><String>Instalar pacotes via web server local.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 			</Table>
 			<Table key="host_device_3">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_og_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_og_install_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Pacotes no USB</String></Pair>
+				<Pair key="info"><String>Instalar pacotes do root do USB.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
@@ -475,23 +475,23 @@
 		<Attributes>
 			<Table key="host_device_1">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_hdd0_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_hdd0_delete_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Pacotes do HDD interno</String></Pair>
+				<Pair key="info"><String>Deletar pacotes da pasta packages do HDD do PS3.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="host_device_2">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_usb_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_usb_delete_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Pacotes na pasta do USB</String></Pair>
+				<Pair key="info"><String>Deletar pacotes da pasta packages do USB.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="host_device_3">
 				<Pair key="icon_rsc"><String>tex_album_icon</String></Pair>
-				<Pair key="title_rsc"><String>msg_tool_og_file</String></Pair>
-				<Pair key="info_rsc"><String>msg_tool_og_delete_info</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="title"><String>Pacotes no USB</String></Pair>
+				<Pair key="info"><String>Deletar pacotes do root do USB.</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_content</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
