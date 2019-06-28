@@ -7,9 +7,9 @@
 			<Table key="hfw_settings">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_hft.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ Hybrid Firmware Tools</String></Pair>
-				<Pair key="info"><String></String></Pair>
-                <Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="title"><String>Ferramentas do Firmware Hibrído</String></Pair>
+				<Pair key="info"><String>Funções extras do Firmware.</String></Pair>
+        <Pair key="ingame"><String>disable</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -22,43 +22,47 @@
 			<Table key="reboot_ps3">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_reboot.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ Restart PS3</String></Pair>
+				<Pair key="title"><String>Reniciar o PS3</String></Pair>
+				<Pair key="info"><String>Renicia o console de formas diferentes.</String></Pair>
 			</Table>
 			<Table key="dump_tools">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_dump.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ Dump Tools</String></Pair>
+				<Pair key="title"><String>Ferramentas de dump</String></Pair>
+				<Pair key="info"><String>Permite fazer dumps de arquivos do console.</String></Pair>
 			</Table>
 			<Table key="recovery_menu">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_service.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ Service Tools</String></Pair>
+				<Pair key="title"><String>Ferramentas de serviços</String></Pair>
+				<Pair key="info"><String>Funções relacionadas à serviços.</String></Pair>
 			</Table>
 			<Table key="ingame_settings">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_ingame.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ In-Game Settings</String></Pair>
+				<Pair key="title"><String>Configuração In-Game</String></Pair>
+				<Pair key="info"><String>Funções usadas dentro dos jogos.</String></Pair>
 			</Table>
             <Table key="ps3hen_theme">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_theme_select.png</String></Pair>
                 <Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-                <Pair key="title"><String>★ Theme Selector</String></Pair>
-                <Pair key="info"><String>Enable HEN before switching theme</String></Pair>
+                <Pair key="title"><String>Seletor de temas</String></Pair>
+                <Pair key="info"><String>Ative o HEN antes de mudar de tema.</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
             </Table>
 			<Table key="ps3hen_updater">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_download.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>★ PS3HEN Updater</String></Pair>
-				<Pair key="info"><String>You MUST reboot console after update has been installed</String></Pair>
-			</Table>		
+				<Pair key="title"><String>Atualizador do PS3HEN</String></Pair>
+				<Pair key="info"><String>Você PRECISA reniciar o console depois que uma atualização for instalada.</String></Pair>
+			</Table>
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="reboot_ps3"		attr="reboot_ps3"		src="#seg_reboot_ps3"/>
-			<Query class="type:x-xmb/folder-pixmap" key="ingame_settings"	attr="ingame_settings"	src="#seg_ingame_settings"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="ingame_settings"	attr="ingame_settings"	src="#seg_ingame_settings"/>
 			<Query class="type:x-xmb/folder-pixmap" key="dump_tools"		attr="dump_tools"		src="#seg_dump_tools"/>
 			<Query class="type:x-xmb/folder-pixmap" key="recovery_menu"		attr="recovery_menu"	src="#seg_recovery_menu"/>
-            <Query class="type:x-xmb/folder-pixmap" key="ps3hen_theme"		attr="ps3hen_theme"		src="#seg_ps3hen_theme"/>			
+            <Query class="type:x-xmb/folder-pixmap" key="ps3hen_theme"		attr="ps3hen_theme"		src="#seg_ps3hen_theme"/>
 			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update"		attr="ps3hen_updater"	src="xmb://localhost/dev_hdd0/hen/xml/ps3hen_updater.xml#seg_ps3hen_updater"/>
 		</Items>
 	</View>
@@ -67,8 +71,8 @@
 		<Attributes>
 			<Table key="soft_reboot_action">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/power_soft.png</String></Pair>
-				<Pair key="title"><String>Quick Restart</String></Pair>
-				<Pair key="info"><String></String></Pair>
+				<Pair key="title"><String>Reniciar rápido</String></Pair>
+				<Pair key="info"><String>Renicia o console de forma rápida.</String></Pair>
 				<Pair key="module_name"><String>xai_plugin</String></Pair>
 				<Pair key="module_action"><String>soft_reboot_action</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
@@ -77,8 +81,8 @@
 			</Table>
 			<Table key="hard_reboot_action">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/power_full.png</String></Pair>
-				<Pair key="title"><String>Full Restart</String></Pair>
-				<Pair key="info"><String></String></Pair>
+				<Pair key="title"><String>Reniciar completamente</String></Pair>
+				<Pair key="info"><String>Renicia o console de forma completa.</String></Pair>
 				<Pair key="module_name"><String>xai_plugin</String></Pair>
 				<Pair key="module_action"><String>hard_reboot_action</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
@@ -87,8 +91,8 @@
 			</Table>
 			<Table key="power_off_action">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/power_off.png</String></Pair>
-				<Pair key="title"><String>Power Off</String></Pair>
-				<Pair key="info"><String></String></Pair>
+				<Pair key="title"><String>Desligar o console</String></Pair>
+				<Pair key="info"><String>Simplesmente desliga o console.</String></Pair>
 				<Pair key="module_name"><String>xai_plugin</String></Pair>
 				<Pair key="module_action"><String>power_off_action</String></Pair>
 				<Pair key="ingame"><String>disable</String></Pair>
@@ -96,25 +100,25 @@
 				<Pair key="lbl_half"><String>1</String></Pair>
 			</Table>
 		</Attributes>
-		<Items>		  
+		<Items>
 			<Item class="type:x-xmb/module-action" key="soft_reboot_action"		attr="soft_reboot_action"/>
 			<Item class="type:x-xmb/module-action" key="hard_reboot_action"		attr="hard_reboot_action"/>
 			<Item class="type:x-xmb/module-action" key="power_off_action"		attr="power_off_action"/>
 		</Items>
-	</View>	
+	</View>
 
 	<View id="seg_ps3hen_theme">
-		<Items>		  
-			<Query class="type:x-xmb/xmlpackagefolder" key="theme_switch" src="host://localhost/q?path=/dev_hdd0/hen/themes&suffix=.pkg&subclass=x-host/package"/>	  
+		<Items>
+			<Query class="type:x-xmb/xmlpackagefolder" key="theme_switch" src="host://localhost/q?path=/dev_hdd0/hen/themes&suffix=.pkg&subclass=x-host/package"/>
 		</Items>
-	</View>	
-	
+	</View>
+
 	<View id="seg_ingame_settings">
 		<Attributes>
 			<Table key="enable_screenshot">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/ingame_enable_ss.png</String></Pair>
-				<Pair key="title"><String>Enable In-Game Screenshot</String></Pair>
-				<Pair key="info"><String></String></Pair>
+				<Pair key="title"><String>Ativar captura de tela dos jogos</String></Pair>
+				<Pair key="info"><String>Permite a captura de imagens dentro dos jogos.</String></Pair>
 				<Pair key="module_name"><String>xai_plugin</String></Pair>
 				<Pair key="module_action"><String>enable_screenshot</String></Pair>
 				<Pair key="bar_action"><String>none</String></Pair>
@@ -122,8 +126,8 @@
 			</Table>
 			<Table key="enable_recording">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_list.png</String></Pair>
-				<Pair key="title"><String>Enable Gameplay Recording</String></Pair>
-				<Pair key="info"><String></String></Pair>
+				<Pair key="title"><String>Ativar gravação de gameplay</String></Pair>
+				<Pair key="info"><String>Ativa a gravação de tela dos jogos.</String></Pair>
 				<Pair key="module_name"><String>xai_plugin</String></Pair>
 				<Pair key="module_action"><String>enable_recording</String></Pair>
 				<Pair key="bar_action"><String>none</String></Pair>
@@ -155,7 +159,7 @@
 				(webMAN MOD is required for this function)</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://localhost/dev_hdd0/tmp/hfw_settings.log</String></Pair>
-			</Table>			
+			</Table>
 			<Table key="clean_log">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_clean_log.png</String></Pair>
 				<Pair key="title"><String>Clean Log File</String></Pair>
