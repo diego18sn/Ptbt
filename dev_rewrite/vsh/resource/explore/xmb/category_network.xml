@@ -60,6 +60,7 @@
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/ps3xploit_www.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemBrowser</String></Pair>
 				<Pair key="title"><String>PS3Xploit Home</String></Pair>
+				<Pair key="info"><String>Visitar o site do exploit.</String></Pair>
 				<Pair key="module_name"><String>webrender_plugin</String></Pair>
 				<Pair key="module_action"><String>http://ps3xploit.com</String></Pair>
  			</Table>
