@@ -49,19 +49,19 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_bddata_mgmt"
 				attr="seg_bddata_mgmt"
-				src="#seg_bddatamgmt" 
+				src="#seg_bddatamgmt"
 				/>
-			<Query 
+			<Query
 				class="type:x-xmb/folder-pixmap"
-				key="xmb_app3" 
-				attr="xmb_app3" 
+				key="xmb_app3"
+				attr="xmb_app3"
 				src="xmb://localhost/dev_hdd0/xmlhost/game_plugin/fb.xml#seg_fv"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dlna_scan"
 				attr="seg_dlna_scan"
-				src="sel://localhost/isdlna?category_photo.xml#seg_dlna_scan" 
+				src="sel://localhost/isdlna?category_photo.xml#seg_dlna_scan"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -93,14 +93,14 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dlna_device"
 				attr="seg_dlna_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:Common.titleForSort&cond=Ae+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DLNA" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:Common.titleForSort&cond=Ae+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DLNA"
 				/>
 
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_bdmav_device"
 				attr="seg_bdmav_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.mediaFormat&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_BDMV %xCB_MEDIA_FORMAT_BDAV+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_DVDPRW&perm=1" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.mediaFormat&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_BDMV %xCB_MEDIA_FORMAT_BDAV+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_DVDPRW&perm=1"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -111,13 +111,13 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_avchd_device"
 				attr="seg_avchd_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_AVCHD+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_AVCHD+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dvdv_device"
 				attr="seg_dvdv_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DVD_VIDEO %xCB_MEDIA_FORMAT_DVDPVR+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DVD_VIDEO %xCB_MEDIA_FORMAT_DVDPVR+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1"
 				/>
 
 			<Query
@@ -136,20 +136,20 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_data_device"
 				attr="seg_data_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.sortOrder+StorageMedia:StorageMedia.timeInserted&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_BDROM %xCB_MEDIA_TYPE_WM" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.sortOrder+StorageMedia:StorageMedia.timeInserted&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_BDROM %xCB_MEDIA_TYPE_WM"
 				/>
 
 			<Query
-				class="type:x-xmb/folder-pixmap" 
-				key="seg_hdd_install" 
-				attr="seg_hdd_install" 
+				class="type:x-xmb/folder-pixmap"
+				key="seg_hdd_install"
+				attr="seg_hdd_install"
 				src="ese://localhost/query?type=install_video"
 				/>
 
 			<Query
-				class="type:x-xmb/folder-pixmap" 
-				key="seg_hdd_contents" 
-				attr="seg_hdd_contents" 
+				class="type:x-xmb/folder-pixmap"
+				key="seg_hdd_contents"
+				attr="seg_hdd_contents"
 				src="sel://localhost/ex?root.view_selected.video"
 				/>
 
@@ -204,19 +204,19 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_bddata_mgmt"
 				attr="seg_bddata_mgmt"
-				src="#seg_bddatamgmt" 
+				src="#seg_bddatamgmt"
 				/>
-			<Query 
+			<Query
 				class="type:x-xmb/folder-pixmap"
-				key="xmb_app3" 
-				attr="xmb_app3" 
+				key="xmb_app3"
+				attr="xmb_app3"
 				src="xmb://localhost/dev_hdd0/xmlhost/game_plugin/fb.xml#seg_fv"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dlna_scan"
 				attr="seg_dlna_scan"
-				src="sel://localhost/isdlna?category_photo.xml#seg_dlna_scan" 
+				src="sel://localhost/isdlna?category_photo.xml#seg_dlna_scan"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -248,14 +248,14 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dlna_device"
 				attr="seg_dlna_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:Common.titleForSort&cond=Ae+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DLNA" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:Common.titleForSort&cond=Ae+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DLNA"
 				/>
 
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_bdmav_device"
 				attr="seg_bdmav_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.mediaFormat&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_BDMV %xCB_MEDIA_FORMAT_BDAV+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_DVDPRW&perm=1" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.mediaFormat&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_BDMV %xCB_MEDIA_FORMAT_BDAV+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_DVDPRW&perm=1"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -266,13 +266,13 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_avchd_device"
 				attr="seg_avchd_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_AVCHD+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_AVCHD+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dvdv_device"
 				attr="seg_dvdv_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DVD_VIDEO %xCB_MEDIA_FORMAT_DVDPVR+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DVD_VIDEO %xCB_MEDIA_FORMAT_DVDPVR+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_DVDROM %xCB_MEDIA_TYPE_DVDPRW&perm=1"
 				/>
 
 			<Query
@@ -292,20 +292,20 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_data_device"
 				attr="seg_data_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.sortOrder+StorageMedia:StorageMedia.timeInserted&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_BDROM %xCB_MEDIA_TYPE_WM" 
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Video&sort=+StorageMedia:StorageMedia.sortOrder+StorageMedia:StorageMedia.timeInserted&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_BDROM %xCB_MEDIA_TYPE_WM"
 				/>
 
-			<Query 
-				class="type:x-xmb/folder-pixmap" 
-				key="seg_hdd_install" 
-				attr="seg_hdd_install" 
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_hdd_install"
+				attr="seg_hdd_install"
 				src="ese://localhost/query?type=install_video"
 				/>
 
-			<Query 
-				class="type:x-xmb/folder-pixmap" 
-				key="seg_hdd_contents" 
-				attr="seg_hdd_contents" 
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_hdd_contents"
+				attr="seg_hdd_contents"
 				src="sel://localhost/ex?root.view_selected.video"
 				/>
 		</Items>
@@ -319,9 +319,9 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Item 
-				class="type:x-xmb/xmlbddatamgmt" 
-				key="bddatamgmt" 
+			<Item
+				class="type:x-xmb/xmlbddatamgmt"
+				key="bddatamgmt"
 				attr="bddatamgmt"
 				/>
 		</Items>
@@ -362,9 +362,9 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Item 
-				class="type:x-xmb/xmlbddatamgmt" 
-				key="bddatacommon" 
+			<Item
+				class="type:x-xmb/xmlbddatamgmt"
+				key="bddatacommon"
 				attr="bddatacommon"
 				/>
 		</Items>

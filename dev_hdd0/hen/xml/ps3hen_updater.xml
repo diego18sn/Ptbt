@@ -35,7 +35,7 @@
 			<!-- <Query class="type:x-xmb/folder-pixmap" key="ps3hen_update" attr="ps3hen_update" src="#ps3hen_update_items_debug"/> -->
 
 			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update_themes" attr="ps3hen_update_themes" src="#ps3hen_update_themes_items"/>
-			<Query class="type:x-xmb/module-action" key="ps3hen_about"  attr="ps3hen_about"/>
+			<Query class="type:x-xmb/module-action" key="ps3hen_about" attr="ps3hen_about"/>
 		</Items>
 	</View>
 
