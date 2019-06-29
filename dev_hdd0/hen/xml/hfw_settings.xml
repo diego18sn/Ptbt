@@ -7,7 +7,7 @@
 			<Table key="hfw_settings">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_hft.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
-				<Pair key="title"><String>Ferramentas do Firmware Hibrído</String></Pair>
+				<Pair key="title"><String>Ferramentas do Firmware Híbrido</String></Pair>
 				<Pair key="info"><String>Funções extras do Firmware.</String></Pair>
         <Pair key="ingame"><String>disable</String></Pair>
 			</Table>
@@ -146,7 +146,7 @@
 		<Items>
 			<!-- <Item class="type:x-xmb/module-action" key="enable_screenshot"		attr="enable_screenshot"/> -->
 			<!--<Item class="type:x-xmb/module-action" key="enable_recording"		attr="enable_recording"/>-->
-			<Item class="type:x-xmb/module-action" key="override_sfo"			attr="override_sfo"/>
+			<Item class="type:x-xmb/module-action" key="override_sfo" attr="override_sfo"/>
 		</Items>
 	</View>
 
@@ -207,7 +207,7 @@
 			<Table key="backup_registry">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_backup_xregistry.png</String></Pair>
 				<Pair key="title"><String>Fazer backup do xRegistry.sys</String></Pair>
-				<Pair key="info"><String>Faz uma cópia de segurança do arquivo xRegistry.sys</String></Pair>
+				<Pair key="info"><String>Faz uma cópia de segurança do arquivo xRegistry.sys.</String></Pair>
 				<Pair key="module_name"><String>xai_plugin</String></Pair>
 				<Pair key="module_action"><String>backup_registry</String></Pair>
 				<Pair key="bar_action"><String>none</String></Pair>
@@ -215,13 +215,13 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Item class="type:x-xmb/module-action" key="view_log"			attr="view_log"/>
-			<Item class="type:x-xmb/module-action" key="clean_log"			attr="clean_log"/>
-			<Item class="type:x-xmb/module-action" key="dump_idps"			attr="dump_idps"/>
-			<Item class="type:x-xmb/module-action" key="log_klic"			attr="log_klic"/>
-			<Item class="type:x-xmb/module-action" key="log_secureid"		attr="log_secureid"/>
-			<Item class="type:x-xmb/module-action" key="dump_disc_key"		attr="dump_disc_key"/>
-			<Item class="type:x-xmb/module-action" key="backup_registry"	attr="backup_registry"/>
+			<Item class="type:x-xmb/module-action" key="view_log"	attr="view_log"/>
+			<Item class="type:x-xmb/module-action" key="clean_log" attr="clean_log"/>
+			<Item class="type:x-xmb/module-action" key="dump_idps" attr="dump_idps"/>
+			<Item class="type:x-xmb/module-action" key="log_klic"	attr="log_klic"/>
+			<Item class="type:x-xmb/module-action" key="log_secureid"	attr="log_secureid"/>
+			<Item class="type:x-xmb/module-action" key="dump_disc_key"  attr="dump_disc_key"/>
+			<Item class="type:x-xmb/module-action" key="backup_registry" attr="backup_registry"/>
 		</Items>
 	</View>
 
@@ -269,10 +269,10 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Item class="type:x-xmb/module-action"  key="applicable_version"	attr="applicable_version"/>
-			<Item class="type:x-xmb/module-action"  key="fs_check"				attr="fs_check"/>
-			<Item class="type:x-xmb/module-action"  key="rebuild_db"			attr="rebuild_db"/>
-			<Item class="type:x-xmb/module-action"  key="recovery_mode"			attr="recovery_mode"/>
+			<Item class="type:x-xmb/module-action"  key="applicable_version" attr="applicable_version"/>
+			<Item class="type:x-xmb/module-action"  key="fs_check"	attr="fs_check"/>
+			<Item class="type:x-xmb/module-action"  key="rebuild_db"	attr="rebuild_db"/>
+			<Item class="type:x-xmb/module-action"  key="recovery_mode"	attr="recovery_mode"/>
 		</Items>
 	</View>
 
