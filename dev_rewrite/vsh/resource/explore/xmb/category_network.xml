@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <XMBML version="1.0">
 	<View id="root">
 		<Attributes>
@@ -8,44 +7,44 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="hfw_settings_en"
 				src="xmb://localhost/dev_hdd0/hen/hfw_settings.xml#seg_hfw_settings"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_ps3xploit_site"
 				attr="seg_ps3xploit_site"
 				src="#seg_ps3xploit_site"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_premo"
 				src="sel://localhost/nopremo?category_network.xml#seg_premo"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_browser"
 				attr="seg_browser"
 				src="#seg_browser"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_kensaku"
 				src="#seg_kensaku"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_dlctrl"
 				src="ese://localhost/query?type=download_control"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_gameexit"
 				src="sel://localhost/ingame?path=category_network.xml#seg_gameexit&type=network"
 				/>
-			<Query
+			  <Query
 				class="type:x-xmb/folder-pixmap"
 				key="gameDir"
 				attr="gameDir"
@@ -53,8 +52,7 @@
 				/>
 		</Items>
 	</View>
-
-	<View id="seg_ps3xploit_site">
+  <View id="seg_ps3xploit_site">
 		<Attributes>
 			<Table key="ps3xploit_site">
 				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/ps3xploit_www.png</String></Pair>
@@ -69,13 +67,11 @@
 			<Item class="type:x-xmb/module-action" key="ps3xploit_site" attr="ps3xploit_site" />
 		</Items>
 	</View>
-
 	<View id="seg_premo">
 		<Items>
 			<Item class="type:x-xmb/xmlpremo" key="PRemo" />
 		</Items>
 	</View>
-
 	<View id="seg_browser">
 		<Attributes>
 			<Table key="browser">
@@ -88,7 +84,6 @@
 			<Item class="type:x-xmb/xmlwebbrowser" key="browser" attr="browser" />
 		</Items>
 	</View>
-
 	<View id="seg_kensaku">
 		<Attributes>
 			<Table key="kensaku">
@@ -105,10 +100,9 @@
 				class="type:x-xmb/module-action"
 				key="kensaku"
 				attr="kensaku"
-			/>
+			  />
 		</Items>
 	</View>
-
 	<View id="seg_gameexit">
 		<Items>
 			<Item class="type:x-xmb/xmlgameexit" key="gameexit" />
