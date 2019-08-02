@@ -1,5 +1,4 @@
-# hen-pt-br
-** Repo de localização do exploit HEN para português brasileiro.
+# Repo de localização do exploit HEN para português brasileiro.
 
 * Não instale se estiver em qualquer versão anterior do HEN como informada na versão do pkg da Tradução.
 * Não instale se você usa lojas pois elas serão removidas.
